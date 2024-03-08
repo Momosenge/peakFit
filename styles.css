@@ -36,7 +36,7 @@ body {
   header .Logo {
     position: relative;
     font-size: 2em;
-    color: #fff;
+    color: #ff5440;
     text-transform: uppercase;
     font-weight: 700;
     text-decoration: none;
@@ -118,13 +118,6 @@ body {
   background-color: #ff5440; 
 }
 
-
-/*.cta-btn {
-  background-color: #ff6f61;
-  color: #fff;
-  padding: 15px 30px;*
-}*/
-
   .hero {
     background-image: url('images/backgroundimg.jpeg');
     background-size: cover;
@@ -185,7 +178,7 @@ body {
 .icons {
     display: grid;
     grid-template-columns: 20% 25% 20% 25%;
-    grid-gap: 10px;
+    grid-gap: 30px;
 }
 
 .icons img {
@@ -375,7 +368,7 @@ body {
 }
 
 .feature-container {
-  max-width: 800px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -394,6 +387,21 @@ body {
 
 .column {
   flex: 1;
+}
+
+.feature-icons {
+  display: grid;
+  grid-template-columns: 20% 25% 20% 25%;
+  grid-gap: 30px;
+}
+
+.feature-icons img {
+  width: 100%;
+  height: 80%;
+}
+
+.feature-icons img:hover {
+  transform: scale(1.1);
 }
 
 .heading {
